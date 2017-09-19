@@ -9,7 +9,7 @@ RUN apt-get update && \
     apt-get install -y software-properties-common && \
     add-apt-repository ppa:bitcoin-abc/ppa && \
     apt-get update && \
-    apt-get install -y bitcoin-abc nmap
+    apt-get install -y bitcoind nmap
 
 RUN mkdir /var/run/bitcoind
 
